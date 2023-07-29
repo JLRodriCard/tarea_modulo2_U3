@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+
+/* TAREA:Utilizando como base los archivos que se encuentran en la carpeta "Material ejercicio" 
+crear las reglas de CSS necesarias usando media queries para que en resoluciones menores a 800px 
+de ancho se vea como la imagen que se adjunta como referencia.*/
+
+
+/*medias queries - adaptación a pantallas menores a 800 px ancho*/
+
+@media (max-width:800px){
+	body{background-color: rgb(73, 73, 70);color: rgb(10, 10, 10);}
+}
+
+@media(max-width: 800px){
+nav {
+	background: hsl(32, 79%, 54%);
+	float: left;
+	width: 68%;
+	color: rgb(10, 10, 10);
+
+}}
+
+@media(max-width: 800px){
+section {
+	background: #dddca4;
+	float: left;
+	margin: 0 0 0 0px;
+	width: 68%;
+	border-top: #000 solid 1px;
+	border-bottom: #000 solid 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;}}
+
+@media(max-width: 800px){
+aside {
+	background: #b1a874e5;
+	float: left;
+	width: 68%;
+	padding-bottom: 10%;
+	
+		
+}}
+
+@media(max-width: 800px){
+a {
+	color: #000;
+}}
+
+@media(max-width: 800px){
+li {padding:1% }}	
+
+@media (max-width:800px){
+h1{font: bold ;font-size: 40px; ;}}
+
+
